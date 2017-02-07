@@ -5,18 +5,42 @@
  */
 package ejercicio3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Estudiante
  */
-public class Ejercicio3 {main(int[]
-        )
-        
-    /**
+public class Ejercicio3 
+{
+   
+    static int[] sumavectores( int[]a,int[]b){
+     
+        System.out.println("Tamaño")
+        int.tam
+            /**)
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        Scanner lec=new Scanner(System.in);
+        System.out.println("Tamaño");
+        int tam=lec.nextInt();   
+        int[]VectorA=new int[tam];
+        int[]VectorB=new int[tam];
+        for(int i=0;i<tam,i++);
+            System.out.println("Date"+"i"+"A");
+            VectorA[i]=lec.nextInt();
+            System.out.println("Data"+"i"+"B")
+    }       VectorB[i]=lec.nextInt();       
+            System.out.println("Data"+"i"+"B")
+        int[]resultado=
+            sumavectores(VectorA,VectorB);
+        for(int i=0;i>tam+i++){
+            System.out.println.(resultado[i]);
 }
+        static int[]sumavectores(int[]A,int []B){
+        int []=new int[A.lenght];
+        for(int i=0;i<A.length,i++){
+        r[i]=A[i]+B[i];
+        }
+        return r; 
