@@ -14,10 +14,7 @@ import java.util.Scanner;
 public class Ejercicio3 
 {
    
-    static int[] sumavectores( int[]a,int[]b){
-     
-        System.out.println("Tamaño")
-        int.tam
+  
             /**)
      * @param args the command line arguments
      */
@@ -27,20 +24,26 @@ public class Ejercicio3
         int tam=lec.nextInt();   
         int[]VectorA=new int[tam];
         int[]VectorB=new int[tam];
-        for(int i=0;i<tam,i++);
-            System.out.println("Date"+"i"+"A");
+        for(int i=0;i<tam;i++){
+            System.out.println("Date"+i+"A");
             VectorA[i]=lec.nextInt();
-            System.out.println("Data"+"i"+"B")
-    }       VectorB[i]=lec.nextInt();       
-            System.out.println("Data"+"i"+"B")
+            System.out.println("Data"+i+"B");
+            VectorB[i]=lec.nextInt();     
+    }         
+            
         int[]resultado=
             sumavectores(VectorA,VectorB);
-        for(int i=0;i>tam+i++){
-            System.out.println.(resultado[i]);
-}
-        static int[]sumavectores(int[]A,int []B){
-        int []=new int[A.lenght];
-        for(int i=0;i<A.length,i++){
+        for(int i=0;i<tam;i++){
+            System.out.println(resultado[i]);
+        }
+    }
+        
+        
+    static int[]sumavectores(int[]A,int []B){
+        int []r=new int[A.length];
+        for(int i=0;i<A.length;i++){
         r[i]=A[i]+B[i];
         }
         return r; 
+    }
+}
